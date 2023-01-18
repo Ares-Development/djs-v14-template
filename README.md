@@ -10,7 +10,7 @@ npm install
 * Configuring the bot
     * Remove `example` from the `.env` file
     * Go to .env and fill in the required things
-    * Go to src/options.json and change the values to your liking
+    * Go to src/options.json and change the values to your liking (true/false)
 
 * Start the bot
 ```

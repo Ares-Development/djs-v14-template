@@ -1,4 +1,5 @@
 {
     "mongoose": true,
-    "slash_global": true
+    "slash_global": true,
+    "prefix": true
 }
