@@ -26,7 +26,7 @@ async function slashLoader() {
         console.log(chalk.white(`[${chalk.grey("SLASH")}]${chalk.white(" - ")}Started refreshing ${slashCommands.length} application commands`));
 
         if(options.slash_global == true) {
-            const global_data = await rest.put(Routes.applicationCommand(process.env.clientId), { body: slashCommands });
+            const global_data = await rest.put(Routes.applicationCommands(process.env.clientId), { body: slashCommands });
             console.log(chalk.white(`[${chalk.grey("SLASH")}]${chalk.white(" - ")}Successfully reloaded ${global_data.length} application commands`));
             console.log(" ");
         } else {
